@@ -7,7 +7,8 @@ var WebBox = React.createClass({
       React.createElement(
         "p",
         null,
-        "Words"
+        "My name is ",
+        this.props.name
       )
     );
   }
