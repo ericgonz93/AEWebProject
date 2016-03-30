@@ -1,0 +1,24 @@
+{
+  "name": "webproject",
+  "version": "1.0.0",
+  "description": "Project between friends.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-plugin-transform-react-jsx": "^6.6.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "babel --plugins transform-react-jsx src/js --out-dir src/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericgonz93/AEWebProject.git"
+  },
+  "author": "Eric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericgonz93/AEWebProject/issues"
+  },
+  "homepage": "https://github.com/ericgonz93/AEWebProject#readme"
+}
