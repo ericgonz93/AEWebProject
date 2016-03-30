@@ -29,6 +29,11 @@ var WebApp = React.createClass({
         "div",
         { className: "row" },
         React.createElement("img", { className: "col-sm-2 col-md-2 col-lg-2 col-xl-2", src: "src/img/Stars.jpg" })
+      ),
+      React.createElement(
+        "div",
+        { className: "row" },
+        React.createElement(FDG, null)
       )
     );
   }
