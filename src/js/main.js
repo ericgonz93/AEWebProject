@@ -34,11 +34,15 @@ return (
 <div className= "container-fluid">
 <h1>Programmers</h1>
 <div className="container">
-<div className = "col-sm-12 col-md-12 col-lg-12 title"><WebBox name= "Let's play a game."/></div>
+<div className = "col-sm-12 col-md-12 col-lg-12 img"><img src={'src/img/Stars.jpg'}></img></div>
+<div className = "col-sm-12 col-md-12 col-lg-12 title"><WebBox name= "Let's play some games."/></div>
+
 
 <div className = "row">
 {rider}
 </div>
+
+
 
 </div>
 </div>);

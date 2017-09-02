@@ -4,6 +4,7 @@ var WebApp = React.createClass({
 
   //HP, STR, MAG, SKL, SPD, LCK, DEF, RES
 
+
   getInitialState: function () {
     return {
       classes: { "Wyvern Rider": [100, 20, 0, 15, 13, 10, 30, 10], "Mercenary": [[80, 18, 0, 18, 16, 10, 15, 13]] }
@@ -58,8 +59,13 @@ var WebApp = React.createClass({
         { className: "container" },
         React.createElement(
           "div",
-          { className: "col-sm-12 col-md-12 col-lg-12" },
-          React.createElement(WebBox, { name: "Let's play a game." })
+          { className: "col-sm-12 col-md-12 col-lg-12 img" },
+          React.createElement("img", { src: 'src/img/Stars.jpg' })
+        ),
+        React.createElement(
+          "div",
+          { className: "col-sm-12 col-md-12 col-lg-12 title" },
+          React.createElement(WebBox, { name: "Let's play some games." })
         ),
         React.createElement(
           "div",
